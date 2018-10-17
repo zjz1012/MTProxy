@@ -1,0 +1,13 @@
+##############################安装方法#################################################
+wget -N --no-check-certificate https://raw.githubusercontent.com/zjz1012/MTProxy/master/MTProxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
+运行脚本后会出现脚本操作菜单，选择并输入 1 就会开始安装
+启动：/etc/init.d/mtproxy start
+停止：/etc/init.d/mtproxy stop
+重启：/etc/init.d/mtproxy restart
+查看状态：/etc/init.d/mtproxy status
+安装目录：/usr/local/mtproxy
+配置文件：/usr/local/mtproxy/mtproxy.conf
+日志文件：/usr/local/mtproxy/mtproxy.log
+##############################使用方法#################################################
+如果你的 TG 客户端没有 Mtproto 代理选项，那么请更新到最新版本！
+Telegram 内置了 Mtproto 代理选项，所以TG客户端内点击 tg://proxy?xxxx... 链接就会自动配置代理，非常方便。
