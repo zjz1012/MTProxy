@@ -1,5 +1,5 @@
 ##############################安装方法#################################################
-wget -N --no-check-certificate https://raw.githubusercontent.com/zjz1012/MTProxy/master/MTProxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/zjz1012/MTProxy/master/MTProxy.sh && chmod +x MTProxy.sh && bash MTProxy.sh
 运行脚本后会出现脚本操作菜单，选择并输入 1 就会开始安装
 启动：/etc/init.d/mtproxy start
 停止：/etc/init.d/mtproxy stop
